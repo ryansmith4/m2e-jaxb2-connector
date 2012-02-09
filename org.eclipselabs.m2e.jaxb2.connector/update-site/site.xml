@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="org.eclipselabs.m2e.jaxb2.connector Update Site" url="http://m2e-jaxb2-connector.eclipselabs.org.codespot.com/hg.update/">
+      org.eclipselabs.m2e.jaxb2.connector Update Site
+   </description>
+   <feature url="features/org.eclipselabs.m2e.jaxb2.connector.feature_1.0.0.qualifier.jar" id="org.eclipselabs.m2e.jaxb2.connector.feature" version="1.0.0.qualifier">
+      <category name="org.eclipselabs.m2e.jaxb2.connector_category"/>
+   </feature>
+   <feature url="features/org.eclipselabs.m2e.jaxb2.connector.source.feature_1.0.0.qualifier.jar" id="org.eclipselabs.m2e.jaxb2.connector.source.feature" version="1.0.0.qualifier">
+      <category name="org.eclipselabs.m2e.jaxb2.connector_category"/>
+   </feature>
+   <category-def name="org.eclipselabs.m2e.jaxb2.connector_category" label="m2e connectors">
+      <description>
+         m2e connectors
+      </description>
+   </category-def>
+</site>

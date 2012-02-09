@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>org.eclipselabs.m2e.jaxb2.connector.feature</artifactId>
+	<packaging>eclipse-feature</packaging>
+	<name>org.eclipselabs.m2e.jaxb2.connector.feature</name>
+	<description>Feature project for the org.eclipselabs.m2e.jaxb2.connector plug-in</description>
+	
+	<parent>
+		<groupId>org.eclipselabs</groupId>
+		<artifactId>org.eclipselabs.m2e.jaxb2.connector.features</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+</project>

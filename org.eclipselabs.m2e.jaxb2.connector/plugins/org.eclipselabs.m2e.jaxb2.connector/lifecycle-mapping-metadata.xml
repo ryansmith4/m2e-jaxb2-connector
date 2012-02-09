@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<lifecycleMappingMetadata>
+ 
+    <pluginExecutions>
+        <pluginExecution>
+            <pluginExecutionFilter>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <versionRange>[0.7.5,)</versionRange>
+                <goals>
+                    <goal>generate</goal>
+                </goals>
+            </pluginExecutionFilter>
+            <action>
+                <configurator>
+                    <id>org.eclipselabs.m2e.jaxb2.connector.Jaxb2JavaProjectConfigurator</id>
+                </configurator>
+            </action>
+        </pluginExecution>
+    </pluginExecutions>
+ 
+</lifecycleMappingMetadata>
