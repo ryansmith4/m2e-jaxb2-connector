@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipselabs.m2e.jaxb2.connector.feature_1.0.0.qualifier.jar" id="org.eclipselabs.m2e.jaxb2.connector.feature" version="1.0.0.qualifier">
+      <category name="m2e-jaxb2-connector_category"/>
+   </feature>
+   <category-def name="m2e-jaxb2-connector_category" label="m2e-jaxb2-connector">
+      <description>
+         An m2e 1.x extension plugin providing build lifecycle configuration for the maven-jaxb2-plugin (http://java.net/projects/maven-jaxb2-plugin/pages/Home)
+      </description>
+   </category-def>
+</site>
