@@ -18,7 +18,7 @@ public class Jaxb2JavaProjectConfigurator extends AbstractJavaProjectConfigurato
     @Override
     protected String getOutputFolderParameterName()
     {
-        return "sourceRoot";
+        return "generateDirectory";
     }
 
     @Override
