@@ -3,3 +3,5 @@ syntax: glob
 target/**
 syntax: glob
 bin/**
+syntax: glob
+org.eclipse.core.resources.prefs
