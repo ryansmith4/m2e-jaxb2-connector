@@ -11,6 +11,7 @@ import org.apache.maven.execution.MavenSession;
 import org.apache.maven.plugin.MojoExecution;
 import org.codehaus.plexus.util.Scanner;
 import org.eclipse.core.resources.IProject;
+import org.eclipse.core.resources.IncrementalProjectBuilder;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.m2e.core.MavenPlugin;
 import org.eclipse.m2e.core.embedder.IMaven;
@@ -40,7 +41,8 @@ public class Jaxb2BuildParticipant extends MojoExecutionBuildParticipant
 
         boolean filesModified = false;
 
-        if ( generateDirectory != null && !generateDirectory.exists() )
+        if ( generateDirectory != null && ( !generateDirectory.exists() || 
+        		IncrementalProjectBuilder.CLEAN_BUILD == kind || IncrementalProjectBuilder.FULL_BUILD == kind ) )
         {
             filesModified = true;
         }
